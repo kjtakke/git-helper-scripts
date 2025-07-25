@@ -4,6 +4,9 @@ This repository contains a set of custom `git-xxx` functions that simplify commo
 
 ## Available Commands
 
+**git-log**
+applies a date formatted git log tree
+
 **git-commit `<message>`**  
 Commits all staged and unstaged changes with the provided message.  
 Example:  
