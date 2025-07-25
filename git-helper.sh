@@ -393,6 +393,9 @@ git-help() {
 Custom Git Helper Commands
 ==========================
 
+git-log
+  Loads a date formatted git log tree
+
 git-commit <message>
   Commits all staged and unstaged changes with the provided message.
   Example:
