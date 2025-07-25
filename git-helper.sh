@@ -1,4 +1,7 @@
 #!/bin/bash
+
+alias git-log="git log --graph --all --decorate --pretty=format:'%C(yellow)%h%Creset %Cgreen%ad%Creset %C(auto)%d%Creset %s' --date=iso"
+
 # Git commit with message
 git-commit() {
   if [[ "$1" == "-h" || "$1" == "--help" || -z "$1" ]]; then
